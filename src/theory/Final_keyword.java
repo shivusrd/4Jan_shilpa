@@ -6,7 +6,7 @@ package theory;
 		final int f=10;
 		public void getdata()
 		{
-			f=10;
+			//f=10;
 			System.out.println(f);
 		}
 		public static void main(String[] args) 
