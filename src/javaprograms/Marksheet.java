@@ -49,6 +49,7 @@ public class Marksheet
 		System.out.println("please enter marks in computer");
 		float computer = sc.nextInt();
 		ob.details(name,fathersname,collegename,rollno,hindi,math,science,english,computer,english, computer);
+	    sc.close();
 	}
 
 }
