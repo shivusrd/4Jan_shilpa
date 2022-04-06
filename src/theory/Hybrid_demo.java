@@ -4,7 +4,7 @@ class A
 {
 	public void a()
 	{
-		System.out.println("Hello a methojd");
+		System.out.println("Hello a method");
 	}
 }
 class B extends A

@@ -28,7 +28,7 @@ public class HierrarichalDemo extends VijayDemo
 		ob.getdata();
 		ob.hellodata();
 		NaveenDemo ob1 = new NaveenDemo();
-	//	ob1.getdata();
+	    ob1.getdata();
 		ob1.showdata();
 	}
 }

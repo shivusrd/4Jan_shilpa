@@ -41,7 +41,7 @@ public class excel_read
    
    public static void main(String[] args) 
 	{
-	  String path ="C:\\Users\\dubey\\eclipse-workspace\\4_january_batch\\testdata\\testdata.xlsx";
+	  String path ="C:\\Users\\dubey\\eclipse-workspace\\Testingbaba_maven\\src\\main\\resources\\webtables_name.xlsx";
 	  for (int i=0;i<=getRowcount(path);i++)
 	  {
 	   String out= readdata(path, 0, i);
