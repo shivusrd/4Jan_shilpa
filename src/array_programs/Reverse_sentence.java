@@ -5,6 +5,7 @@ public class Reverse_sentence
 {
       public void getdata (String input) 
 	  {   
+      
        String [] c =input.split(" ") ;
 	   String out = ""; 
 	   for(int i=0;i<=c.length-1;i++) 

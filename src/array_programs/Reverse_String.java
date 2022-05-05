@@ -14,9 +14,9 @@ public class Reverse_String
 			{
 				out=out+c[i];
 			}
-			System.out.println(out)
-	;
-		}
+			System.out.println(out);
+	
+	    }
 		public static void main(String[] args) 
 		{
 			Reverse_String ob = new Reverse_String();

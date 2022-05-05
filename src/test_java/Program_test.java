@@ -1,24 +1,38 @@
 package test_java;
 
-import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+import org.apache.commons.collections4.ArrayStack;
 
 public class Program_test
 {
+	 
 	
 	
-	public void getdata (String input)
+	public static void main(String[] args) 
 	{
-		String a[]=input.split("  ");
-		String out = 
+		
+		//My name is Aparna
+		String input ="MynameisAparna";
+		String s[]=input.split(" ") ;
+		String out = "";
+		for (int i=0; i<=s.length-1 ; i++) 
+		{
+			
+			String out1 = s[i];
+			char []c = out1.toCharArray();
+			for (int k=c.length-1; k>=0 ; k--) 
+			{
+				out = out +c[k];
+				
+			}
+			out = out + " ";
+			System.out.println(out);
+			
+	   }
+		
 		
 	}
-   public static void main(String[] args)
-   {
-	   Program_test ob = new Program_test ();
-	    Scanner sc = new Scanner (System.in);
-	    System.out.println("please enter your setnence ");
-	   String input = sc.nextLine();
-	   ob.getdata(input);
-	
-   }
   }
